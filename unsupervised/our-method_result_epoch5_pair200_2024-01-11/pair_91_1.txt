@@ -1,0 +1,327 @@
+A: It's not just for your drinking . But you are lacking sense of responsibility .
+B: I just don't trust you any more .
+
+----------------------------------------------------------------
+
+NO implicit:
+Q: Here are two utterances: (1) It's not just for your drinking . But you are lacking sense of responsibility .(2) I just don't trust you any more .                                Is there a emotional cause-and-effect relationship between utterance (1) and utterance (2)?  Let's think step by step.
+A: To determine if there is an emotional cause-and-effect relationship between utterance (1) and utterance (2), let's break it down step by step.
+
+1. Utterance (1): "It's not just for your drinking. But you are lacking a sense of responsibility."
+   This statement implies a criticism or accusation that the person being addressed lacks a sense of responsibility. It suggests that their actions or behavior are not limited to just drinking but extend to other areas that require responsibility.
+
+2. Utterance (2): "I just don't trust you anymore."
+   This statement conveys a loss of trust in the person being addressed. It indicates that something has happened or been observed that has led to a decreased level of trust in their character or actions.
+
+Though not explicitly stated, it is possible to infer an emotional cause-and-effect relationship between the two utterances. Utterance (1) highlights the perceived lack of responsibility in the person, which could have potentially led to the loss of trust expressed in utterance (2). The criticism regarding responsibility may have influenced the speaker's emotional state, leading them to no longer trust the person.
+
+Therefore, there is a potential emotional cause-and-effect relationship between these utterances, where the criticism in utterance (1) could have influenced the loss of trust expressed in utterance (2).
+
+Q: Judge the direction of the relationship:                                        Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the analysis provided, it is more likely that utterance (1) causes utterance (2). The criticism or accusation in utterance (1) regarding the lack of responsibility may have influenced the speaker's emotional state, leading them to express a loss of trust in utterance (2). Therefore, utterance (1) causes utterance (2).
+
+Result: zero-shot-cot: GPT预测正确！
+
+----------------------------------------------------------------
+
+Start iteration......
+
+--------------------------EPOCH: 0 -------------------------
+
+Q_A: There is an utterance "It's not just for your drinking . But you are lacking sense of responsibility .". Evidently, the speaker feels anger. Please list 10 implicit causes which make this emotion emerge. (such as what is the speaker's affective drive, desire, goal etc.) Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is response to perceived irresponsibility.
+2. The speaker desires a sense of accountability and maturity from the listener.
+3. The speaker's goal is to make the listener aware of their lack of responsibility.
+4. The speaker may have experienced negative consequences due to the listener's actions or irresponsibility in the past.
+5. The speaker possibly wishes to instigate a change in the listener's behavior or attitude.
+6. The speaker may feel frustrated by the perceived disregard for important matters by the listener.
+7. The speaker could be concerned about the potential consequences of the listener's lack of responsibility on others or themselves.
+8. The speaker may have a strong moral or ethical stance, and the listener's behavior contradicts these values.
+9. The speaker may have tried to communicate their concerns about responsibility previously, but the listener has not acknowledged or addressed them.
+10. The speaker's anger could stem from a perceived lack of consideration or respect from the listener, leading to feelings of frustration and resentment.
+
+Q_B: There is an utterance "I just don't trust you any more .". Evidently, the speaker feels anger. Please list 10 implicit causes which make this emotion emerge. (such as what is the speaker's affective drive, desire, goal etc.) Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's previous trust in the listener has been shattered, causing feelings of betrayal and disappointment.
+2. The speaker may have been repeatedly let down or deceived by the listener, leading to a loss of faith and heightened anger.
+3. The speaker might have discovered evidence or received information that suggests the listener has been dishonest or unfaithful.
+4. The listener's actions or behavior may have continuously violated the speaker's values or personal boundaries, generating anger and mistrust.
+5. The speaker may desire honesty and transparency in their relationships, and they feel that the listener's lack of trustworthiness has tarnished the bond.
+6. The speaker could have experienced emotional pain or hurt due to the listener's actions, resulting in anger as a defense mechanism.
+7. The speaker's need for security and stability has been compromised by the listener's untrustworthy actions, triggering anger as a reaction.
+8. The speaker's sense of self-worth and self-esteem might have been damaged by the listener's behavior, leading to anger arising from feelings of disrespect.
+9. The speaker may have attempted to communicate their concerns or ask for reassurance, but the listener's lack of responsiveness or effort has fueled anger.
+10. The speaker's expectations of loyalty and dependability from the listener have been violated, causing anger and a diminished sense of connection and closeness.
+
+BEST_A: The speaker possibly wishes to instigate a change in the listener's behavior or attitude.
+BEST_B:The speaker could have experienced emotional pain or hurt due to the listener's actions, resulting in anger as a defense mechanism.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker possibly wishes to instigate a change in the listener's behavior or attitude."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker could have experienced emotional pain or hurt due to the listener's actions, resulting in anger as a defense mechanism."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: Step 1: Analyzing the content of utterance (1): "It's not just for your drinking. But you are lacking a sense of responsibility."
+
+The content of utterance (1) suggests that the speaker is questioning the listener's lack of responsibility, possibly related to their drinking habits. The speaker implies that there is a need for the listener to change their behavior or attitude.
+
+Step 2: Analyzing the content of utterance (2): "I just don't trust you anymore."
+
+The content of utterance (2) indicates that the speaker has lost trust in the listener. This loss of trust could be a result of the listener's actions, possibly causing emotional pain or hurt to the speaker.
+
+Step 3: Analyzing the relationship between the causes of both utterances:
+
+While there is no direct emotional cause-and-effect relationship stated between the implicit causes of utterance (1) and utterance (2), it is possible to see a potential connection. 
+
+Utterance (1) suggests a frustration with the listener's lack of responsibility, which could lead to a breakdown in trust and ultimately result in utterance (2). The listener's behavior, as highlighted in utterance (1), may have caused emotional pain or hurt to the speaker, leading to a loss of trust and the expression of that loss in utterance (2).
+
+Therefore, it is reasonable to infer that there might be an emotional cause-and-effect relationship between the implicit causes of utterance (1) and utterance (2), although it is not explicitly stated.
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the analysis provided, it can be inferred that utterance (1) causes utterance (2). The frustration and lack of responsibility expressed in utterance (1) likely led to a breakdown in trust, resulting in utterance (2) expressing the loss of trust.
+
+Result: our method: GPT预测正确！
+
+--------------------------EPOCH: 1 -------------------------
+
+Q_A: The 10 implicit causes listed in the above answers are listed as (3, 7, 1, 4, 9, 2, 6, 8, 10, 5) in descending order of their relevance to the original utterance "It's not just for your drinking . But you are lacking sense of responsibility ."                            Based on this feedback and the speaker feels anger, please re-generate 10 implicit causes(such as what is the speaker's affective dirve, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                            Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is frustration towards the listener's perceived lack of responsibility.
+2. The speaker desires the listener to acknowledge and take ownership of their actions and behaviors.
+3. The speaker's goal is to express their disappointment and point out the lack of responsibility in the listener's behavior.
+4. The speaker may have experienced negative consequences caused by the listener's irresponsibility before, leading to anger.
+5. The speaker wishes for the listener to understand the importance of responsibility in various aspects of their life.
+6. The speaker may feel disrespected or unappreciated due to the listener's lack of responsibility.
+7. The speaker's anger is fueled by a sense of injustice caused by the listener's negligent actions.
+8. The speaker could be worried about the potential harm or damage caused by the listener's irresponsibility.
+9. The speaker may have attempted to guide or advise the listener on being responsible previously, but their efforts were disregarded, leading to frustration.
+10. The speaker's anger arises from a sense of powerlessness or helplessness in influencing the listener's behavior positively.
+
+Q_B: The 10 implicit causes listed in the above answers are listed as (5, 1, 10, 7, 3, 2, 4, 8, 9, 6) in descending order of their relevance to the original utterance "I just don't trust you any more ."                            Based on this feedback and the speaker feels anger, please regenerate 10 implicit causes(such as what is the speaker's affective drive, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                           Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's expectation of trustworthiness has been repeatedly violated by the listener, causing intense anger.
+2. The speaker desires a genuine and reliable connection, rendering the listener's lack of trustworthiness infuriating.
+3. The speaker's goal of fostering a mutually trusting relationship has been undermined by the listener's actions, intensifying their anger.
+4. The speaker's emotional drive to feel secure and protected has been compromised by the listener's breach of trust, leading to anger.
+5. The speaker's desire for transparency and honesty in relationships has been shattered by the listener's actions, fueling anger.
+6. The speaker's emotional well-being has suffered due to the listener's untrustworthy behavior, resulting in heightened anger.
+7. The speaker's belief in the listener's integrity and reliability has diminished, provoking anger and disappointment.
+8. The speaker's sense of personal boundaries has been crossed by the listener's actions, triggering intense anger.
+9. The speaker's goal of maintaining a trusting bond with the listener has been shattered, resulting in anger and resentment.
+10. The speaker's need for loyalty and dependability has been unmet by the listener, generating anger and mistrust.
+
+BEST_A: The speaker's anger arises from a sense of powerlessness or helplessness in influencing the listener's behavior positively.
+BEST_B:The speaker's sense of personal boundaries has been crossed by the listener's actions, triggering intense anger.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker's anger arises from a sense of powerlessness or helplessness in influencing the listener's behavior positively."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker's sense of personal boundaries has been crossed by the listener's actions, triggering intense anger."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: Yes, there is a potential emotional cause-and-effect relationship between utterance (1) and utterance (2). 
+
+In utterance (1), the speaker expresses their frustration with the listener's lack of responsibility. This frustration arises from a sense of powerlessness or helplessness, indicating that the speaker may feel overwhelmed or unable to effectively influence the listener's behavior positively.
+
+If the listener continues to display behaviors that disregard the speaker's concerns or responsibilities, it could further exacerbate the emotional state of the speaker. This may lead to utterance (2), where the speaker expresses their lack of trust. The sense of personal boundaries being crossed by the listener's actions triggers intense anger in the speaker.
+
+Therefore, utterance (2) can be seen as a potential emotional consequence of the unresolved frustrations expressed in utterance (1).
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the provided information, it appears that utterance (1) causes utterance (2). The frustration and sense of powerlessness expressed in utterance (1) may lead to a lack of trust and intense anger expressed in utterance (2).
+
+Result: our method: GPT预测正确！
+
+--------------------------EPOCH: 2 -------------------------
+
+Q_A: The 10 implicit causes listed in the above answers are listed as (9, 5, 2, 4, 6, 8, 1, 7, 3, 10) in descending order of their relevance to the original utterance "It's not just for your drinking . But you are lacking sense of responsibility ."                            Based on this feedback and the speaker feels anger, please re-generate 10 implicit causes(such as what is the speaker's affective dirve, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                            Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is frustration and annoyance towards the listener's perceived irresponsibility.
+2. The speaker desires the listener to recognize the importance of responsibility and its impact on their actions.
+3. The speaker's goal is to convey a sense of disappointment and emphasize the listener's lack of responsibility.
+4. The speaker may feel resentment due to the listener's repeated failure to be responsible.
+5. The speaker wishes for the listener to take accountability for their actions and display a sense of maturity.
+6. The speaker's anger arises from the belief that the listener's lack of responsibility reflects poorly on their character.
+7. The speaker could be concerned about potential consequences that may arise from the listener's irresponsible behavior.
+8. The speaker may have high expectations for the listener's responsibility and feels let down by their behavior.
+9. The speaker's anger is fueled by a sense of injustice caused by the listener's negligence and irresponsible actions.
+10. The speaker's frustration may stem from their inability to comprehend why the listener struggles with taking responsibility.
+
+Q_B: The 10 implicit causes listed in the above answers are listed as (1, 7, 4, 2, 10, 9, 5, 3, 6, 8) in descending order of their relevance to the original utterance "I just don't trust you any more ."                            Based on this feedback and the speaker feels anger, please regenerate 10 implicit causes(such as what is the speaker's affective drive, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                           Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's sense of betrayal and disappointment fuels their anger as the listener has repeatedly broken their trust.
+2. The speaker yearns for a sense of security and reliability which has been shattered by the listener's untrustworthy actions, intensifying their anger.
+3. The speaker's emotional drive to seek authenticity and sincerity in relationships is hindered by the listener's lack of trustworthiness, causing anger.
+4. The speaker's ultimate goal of fostering a trustworthy and dependable bond with the listener has been undermined, resulting in anger.
+5. The speaker desires transparency and honest communication, yet the listener's breach of trust has left them enraged.
+6. The speaker's emotional well-being is deeply affected by the listener's untrustworthy behavior, provoking intense anger.
+7. The speaker's belief in the listener's integrity and faithfulness has been shattered, leading to anger and resentment.
+8. The speaker's personal boundaries have been violated by the listener's actions, igniting their anger.
+9. The speaker's goal of maintaining a trusting relationship with the listener has been jeopardized, triggering anger and mistrust.
+10. The speaker's need for loyalty and dependability remains unfulfilled by the listener, intensifying their anger and sense of betrayal.
+
+BEST_A: The speaker's affective drive is frustration and annoyance towards the listener's perceived irresponsibility.
+BEST_B:The speaker's personal boundaries have been violated by the listener's actions, igniting their anger.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker's affective drive is frustration and annoyance towards the listener's perceived irresponsibility."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker's personal boundaries have been violated by the listener's actions, igniting their anger."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: In analyzing the emotional cause-and-effect relationship between utterance (1) and utterance (2), we can identify a possible connection based on the content and implicit causes of the utterances.
+
+Utterance (1) expresses frustration and annoyance towards the listener's perceived irresponsibility. This indicates that the speaker is dissatisfied with the listener's actions or behavior, possibly causing them emotional distress.
+
+Utterance (2) states that the speaker no longer trusts the listener. This implies that the listener has done something to violate the speaker's personal boundaries, evoking anger in the speaker.
+
+Considering these factors, we can infer a potential emotional cause-and-effect relationship between the two utterances. Utterance (1) reflects the speaker's frustration and annoyance towards the listener's irresponsibility, which could be a contributing factor to the speaker's diminishing trust and subsequent anger expressed in utterance (2). The listener's perceived lack of responsibility might have triggered a series of emotions in the speaker, eventually leading to a breakdown in trust.
+
+It's important to note that this relationship is a speculative interpretation based on the given information and should be taken as such. The context and specific circumstances surrounding the utterances would provide a clearer understanding of the emotional cause-and-effect between these two utterances.
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the analysis provided, it appears that utterance (1) causes utterance (2). The frustration and annoyance expressed in utterance (1) towards the listener's perceived irresponsibility likely contribute to the speaker's diminished trust and subsequent expression of anger in utterance (2).
+
+Result: our method: GPT预测正确！
+
+--------------------------EPOCH: 3 -------------------------
+
+Q_A: The 10 implicit causes listed in the above answers are listed as (4, 2, 8, 7, 6, 5, 10, 9, 3, 1) in descending order of their relevance to the original utterance "It's not just for your drinking . But you are lacking sense of responsibility ."                            Based on this feedback and the speaker feels anger, please re-generate 10 implicit causes(such as what is the speaker's affective dirve, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                            Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is resentment towards the listener's perceived irresponsibility.
+2. The speaker desires the listener to recognize the seriousness and importance of being responsible.
+3. The speaker's goal is to communicate their frustration and disappointment regarding the listener's lack of responsibility.
+4. The speaker may feel a sense of betrayal, as they expected the listener to display responsibility.
+5. The speaker wishes for the listener to take ownership of their actions and demonstrate a stronger sense of responsibility.
+6. The speaker's anger arises from the belief that the listener's lack of responsibility reflects negatively on their character.
+7. The speaker could be concerned about the potential negative consequences the listener's irresponsibility may bring.
+8. The speaker may have high expectations for the listener's responsibility and is deeply disappointed in their failure to meet them.
+9. The speaker's anger stems from a perception of injustice caused by the listener neglecting their responsibilities.
+10. The speaker's frustration may come from their inability to understand why the listener struggles with embracing responsibility.
+
+Q_B: The 10 implicit causes listed in the above answers are listed as (2, 1, 3, 5, 10, 9, 4, 7, 6, 8) in descending order of their relevance to the original utterance "I just don't trust you any more ."                            Based on this feedback and the speaker feels anger, please regenerate 10 implicit causes(such as what is the speaker's affective drive, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                           Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's anger arises from feeling deeply hurt and betrayed by the listener's actions.
+2. The speaker's overwhelming desire for honesty and trustworthiness has been shattered, leading to anger.
+3. The speaker's emotional drive for security and reliability in relationships has been undermined, resulting in anger.
+4. The speaker's goal of fostering a bond built on trust and loyalty has been compromised, evoking anger.
+5. The speaker's sense of peace and emotional well-being has been disrupted by the listener's breach of trust, fueling anger.
+6. The speaker's need for open and honest communication remains unmet, intensifying their anger.
+7. The speaker's core belief in the listener's integrity and faithfulness has been shattered, resulting in anger and frustration.
+8. The speaker's anger stems from feeling violated and disrespected due to the listener's untrustworthy behavior.
+9. The speaker's yearning for a genuine connection with the listener has been crushed, causing anger and mistrust.
+10. The speaker's anger arises from the listener's failure to meet their expectations of loyalty and dependability.
+
+BEST_A: The speaker's affective drive is resentment towards the listener's perceived irresponsibility.
+BEST_B:The speaker's need for open and honest communication remains unmet, intensifying their anger.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker's affective drive is resentment towards the listener's perceived irresponsibility."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker's need for open and honest communication remains unmet, intensifying their anger."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: Step 1: Analyzing the content of the utterances
+Utterance (1) expresses frustration towards the listener's lack of responsibility. 
+Utterance (2) expresses a loss of trust towards the listener.
+
+Step 2: Identifying the implicit causes of the utterances
+The implicit cause of utterance (1) is resentment towards the listener's perceived irresponsibility.
+The implicit cause of utterance (2) is the speaker's unmet need for open and honest communication, intensifying their anger.
+
+Step 3: Determining an emotional cause-and-effect relationship
+Based on the analysis of the content and implicit causes, there seems to be a relationship between the two utterances. Both utterances express negative emotions towards the listener; utterance (1) conveys resentment, while utterance (2) conveys anger. Therefore, it can be concluded that there is an emotional cause-and-effect relationship between the utterance (1) and utterance (2). The resentment expressed in utterance (1) could contribute to the loss of trust and intensified anger expressed in utterance (2).
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the information provided, it is more likely that utterance (1) causes utterance (2). The frustration and resentment expressed in utterance (1) towards the listener's lack of responsibility may contribute to the speaker's loss of trust and intensified anger expressed in utterance (2). Therefore, the direction of the relationship is utterance (1) causing utterance (2).
+
+Result: our method: GPT预测正确！
+
+--------------------------EPOCH: 4 -------------------------
+
+Q_A: The 10 implicit causes listed in the above answers are listed as (2, 5, 6, 10, 7, 3, 8, 9, 1, 4) in descending order of their relevance to the original utterance "It's not just for your drinking . But you are lacking sense of responsibility ."                            Based on this feedback and the speaker feels anger, please re-generate 10 implicit causes(such as what is the speaker's affective dirve, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                            Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is frustration towards the listener's irresponsible behavior.
+2. The speaker desires the listener to acknowledge the importance of fulfilling their responsibilities.
+3. The speaker's goal is to express their dissatisfaction with the listener's lack of responsibility.
+4. The speaker may feel a sense of injustice as they believe the listener is not taking their obligations seriously.
+5. The speaker wishes for the listener to demonstrate accountability and maturity in their actions.
+6. The speaker's anger arises from the belief that the listener's irresponsibility reflects poorly on their character and reliability.
+7. The speaker could be concerned about the potential negative impact the listener's lack of responsibility may have on others.
+8. The speaker may have high expectations for the listener's behavior and is disappointed by their failure to meet them.
+9. The speaker's anger stems from a feeling of letdown as they assumed the listener would fulfill their responsibilities.
+10. The speaker's frustration may come from their inability to comprehend why the listener lacks a sense of duty and accountability.
+
+Q_B: The 10 implicit causes listed in the above answers are listed as (2, 4, 3, 5, 7, 8, 9, 10, 1, 6) in descending order of their relevance to the original utterance "I just don't trust you any more ."                            Based on this feedback and the speaker feels anger, please regenerate 10 implicit causes(such as what is the speaker's affective drive, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                           Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's anger arises from a deep sense of betrayal and violation of their trust by the listener.
+2. The speaker's emotional drive for faithfulness and reliability in relationships has been shattered, intensifying their anger.
+3. The speaker's core desire for a genuine and trustworthy connection with the listener has been undermined, leading to anger.
+4. The speaker's goal of cultivating a relationship built on trust and loyalty has been compromised, fueling their anger.
+5. The speaker's overwhelming feeling of hurt and disappointment has transformed into anger as a result of the listener's actions.
+6. The speaker's emotional well-being has been disrupted by the listener's breach of trust, leading to anger.
+7. The speaker's anger stems from a sense of disrespect and disregard for their feelings caused by the listener's untrustworthy behavior.
+8. The speaker's anger is driven by their need for honesty and transparency in their interactions with the listener.
+9. The speaker's yearning for a reliable and dependable bond has been disrupted, intensifying their anger.
+10. The speaker's anger arises from a deep-rooted belief in the importance of trust and the listener's failure to meet their expectations.
+
+BEST_A: The speaker may have high expectations for the listener's behavior and is disappointed by their failure to meet them.
+BEST_B:The speaker's anger is driven by their need for honesty and transparency in their interactions with the listener.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker may have high expectations for the listener's behavior and is disappointed by their failure to meet them."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker's anger is driven by their need for honesty and transparency in their interactions with the listener."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: Step 1: Analyzing the content of utterance (1): "It's not just for your drinking. But you are lacking a sense of responsibility."
+
+The speaker expresses disappointment in the listener's behavior and implies that they expected more from them. It suggests that the speaker has high expectations and is dissatisfied with the listener's lack of responsibility.
+
+Step 2: Analyzing the content of utterance (2): "I just don't trust you anymore."
+
+The speaker expresses a loss of trust in the listener. This suggests that something has happened to make the speaker doubt the listener's honesty and transparency.
+
+Step 3: Identifying the emotional causes of the utterances:
+
+Utterance (1): The speaker may be feeling disappointed, frustrated, or let down by the listener's failure to meet their expectations. This could generate emotions such as sadness, anger, or a sense of betrayal.
+
+Utterance (2): The speaker may be feeling hurt, betrayed, or frustrated by a breach of trust. This could generate emotions such as anger, sadness, or resentment.
+
+Step 4: Examining the cause-and-effect relationship between the utterances:
+
+Based on the analysis, there could be an emotional cause-and-effect relationship between the two utterances. Utterance (1) implies disappointment in the listener's lack of responsibility, and this disappointment, in turn, could lead to a loss of trust, which is expressed in utterance (2).
+
+In other words, the speaker's disappointment in the listener's behavior (utterance 1) might contribute to a growing lack of trust (utterance 2). However, it is also possible that other factors contribute to the loss of trust, as the specific cause is not mentioned in the given information.
+
+Overall, while there can be a potential emotional cause-and-effect relationship between the utterances, it is important to note that the given information does not explicitly provide a direct connection between the two utterances.
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the given information, it appears that utterance (1) may be the cause of utterance (2). The disappointment and frustration expressed in utterance (1) could potentially lead to a loss of trust and the expression of that in utterance (2). Therefore, utterance (1) causes utterance (2).
+
+Result: our method: GPT预测正确！
+
+--------------------------EPOCH: 5 -------------------------
+
+Q_A: The 10 implicit causes listed in the above answers are listed as (7, 10, 3, 2, 5, 4, 6, 1, 9, 8) in descending order of their relevance to the original utterance "It's not just for your drinking . But you are lacking sense of responsibility ."                            Based on this feedback and the speaker feels anger, please re-generate 10 implicit causes(such as what is the speaker's affective dirve, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                            Each implicit cause is expressed in one sentence.
+A_A: 1. The speaker's affective drive is resentment towards the listener's irresponsible behavior.
+2. The speaker desires the listener to take ownership of their actions and become more responsible.
+3. The speaker's goal is to communicate the importance of accountability and responsibility to the listener.
+4. The speaker may feel indignation as they perceive the listener's lack of responsibility as disrespectful.
+5. The speaker wishes for the listener to demonstrate a greater sense of duty towards their obligations.
+6. The speaker's anger arises from a sense of betrayal as they expected the listener to be dependable.
+7. The speaker could be deeply frustrated by the listener's repeated disregard for their responsibilities.
+8. The speaker may question the listener's integrity, causing anger due to their perceived lack of honesty.
+9. The speaker's anger stems from a belief that the listener's irresponsibility is causing harm to themselves or others.
+10. The speaker's frustration may come from their inability to comprehend why the listener consistently neglects their responsibilities despite reminders or consequences.
+
+Q_B: The 10 implicit causes listed in the above answers are listed as (4, 2, 9, 6, 1, 10, 3, 7, 5, 8) in descending order of their relevance to the original utterance "I just don't trust you any more ."                            Based on this feedback and the speaker feels anger, please regenerate 10 implicit causes(such as what is the speaker's affective drive, desire, goal etc.) which are more closely related to the original utterance, but less likely to be mistaken for other utterances, but less likely to be mistaken for other utterances.                           Each implicit cause is expressed in one sentence.
+A_B: 1. The speaker's anger is driven by the deep sense of betrayal and hurt caused by the listener's actions, leading to a loss of trust.
+2. The speaker's emotional drive for safety and security in relationships has been shattered, fueling their anger towards the listener's untrustworthy behavior.
+3. The speaker's core desire for authenticity and integrity in their connections with others has been violated, intensifying their anger.
+4. The speaker's goal of fostering a genuine and reliable bond with the listener has been obstructed, resulting in their angered state.
+5. The speaker's overwhelming feeling of being let down and deceived has transformed into anger, as their trust in the listener has been broken.
+6. The speaker's emotional well-being has been deeply affected by the listener's breach of trust, causing them to experience anger as a protective response.
+7. The speaker's anger stems from a sense of disrespect and disregard for their feelings, provoked by the listener's untrustworthy actions.
+8. The speaker's anger is driven by their inherent need for openness and transparency in their relationship with the listener.
+9. The speaker's yearning for a trustworthy and dependable connection has been shaken, leading to their heightened anger.
+10. The speaker's anger arises from their firm belief in the significance of trust and the listener's failure to honor that belief.
+
+BEST_A: The speaker may question the listener's integrity, causing anger due to their perceived lack of honesty.
+BEST_B:The speaker's anger is driven by their inherent need for openness and transparency in their relationship with the listener.
+
+Implicit:
+Q: Here are two utterances and their implicit causes for speakers to say them.                                 Utterance (1): It's not just for your drinking . But you are lacking sense of responsibility .The implicit cause of utterance (1) is "The speaker may question the listener's integrity, causing anger due to their perceived lack of honesty."                                 Utterance (2): I just don't trust you any more .The implicit cause of utterance (2) is "The speaker's anger is driven by their inherent need for openness and transparency in their relationship with the listener."                                 Consider about the content of utterances and their implicit causes, is there a emotional cause-and-effective relationship between the utterance (1) and utterance (2)? Let's think step by step.
+A: Yes, there could be an emotional cause-and-effect relationship between utterance (1) and utterance (2), although it may not be explicitly stated in the given information.
+
+Based on the information provided, utterance (1) suggests that the speaker questions the listener's integrity and perceives them as lacking responsibility. This could lead to a sense of anger or frustration in the speaker towards the listener.
+
+This emotional state of anger or frustration could then manifest in utterance (2), where the speaker expresses a loss of trust towards the listener. The speaker's need for openness and transparency in their relationship may be driving this anger and the consequent lack of trust.
+
+Therefore, it is possible to see a cause-and-effect relationship between the emotional state created by utterance (1) and the expression of loss of trust in utterance (2). The speaker's anger and frustration towards the listener's perceived lack of responsibility could lead to a breakdown in trust and the need for openness in their relationship.
+
+Q: Judge the direction of the relationship:                                         Dose utterance (1) causes utterance (2) or Dose utterance (2) causes utterance (1) ?
+A: Based on the information given, it is likely that utterance (1) causes utterance (2). 
+
+Utterance (1) expresses the speaker's frustration with the listener's lack of responsibility and integrity, which could lead to feelings of anger or disappointment. This emotional state may then cause the speaker to express a loss of trust in utterance (2), as a reaction to their perceived lack of honesty and responsibility.
+
+Therefore, the cause-and-effect relationship suggests that utterance (1) leads to utterance (2).
+
+Result: our method: GPT预测正确！
+
+End interation......
+
+----------------------------------------------------------------
+
