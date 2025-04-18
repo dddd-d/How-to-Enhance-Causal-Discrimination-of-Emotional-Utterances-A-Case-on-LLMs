@@ -202,9 +202,14 @@ def GPT_Implicit_Causes_Enhanced(E_s, context, idx_i, idx_t, speaker_s, speaker_
     answer = query(messages_Implicit_Causes_Enhanced)
     return answer
 
-def iter_E_external_eval(rank1, rank2, clause1, clause2, messages):
-    question = prompt_iter.replace('{rank1}',str(rank1)).replace('{rank2}',str(rank2)).replace('{clause1}',clause1).replace('{clause2}',clause2)
-    messages = [messages[-1]]
+def iter_E_external_eval(rank1, rank2, E, clause1, messages):
+    question = prompt_iter.replace('{clause1}',clause1).replace('{rank1}', str(rank1)).replace('{rank2}', str(rank2))
+    question = question.replace('{e1}', E[0])
+    question = question.replace('{e2}', E[1])
+    question = question.replace('{e3}', E[2])
+    question = question.replace('{e4}', E[3])
+    question = question.replace('{e5}', E[4])
+    messages = []
     messages.append({"role": "user", "content": question})
     answer = query(messages)
     messages.append({"role": "assistant", "content": answer})
@@ -244,7 +249,7 @@ def train_pair(U_t, U_i, context, idx_t, idx_i, speaker_t, speaker_i, label, pro
 
     for epoch in range(EPOCHS):
         iter_dict = {}
-        message_i, E_i_list = iter_E_external_eval(rank1_i, rank2_i, U_i, U_t, message_i)
+        message_i, E_i_list = iter_E_external_eval(rank1_i, rank2_i, E_i_list, U_i, message_i)
 
         if eval == 'external_eval':
             best_E_i, rank_i, rank1_i, rank2_i = external_eval(U_i, U_t, E_i_list)
