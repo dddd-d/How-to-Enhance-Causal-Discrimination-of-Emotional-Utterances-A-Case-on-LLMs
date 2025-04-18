@@ -34,7 +34,7 @@ model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 client = OpenAI()
 client.api_key = os.environ.get("OPENAI_API_KEY")
 
-prompt_generate_E = '''Given two utterances:
+prompt_generate_E1 = '''Given two utterances:
 [1] {clause1}
 [2] {clause2}
 
@@ -45,9 +45,27 @@ Requirements:
 List 5 reasonable implicit causes of the utterance [1].
 Return in the form of a python list, such as ["The speaker recently announced their pregnancy.",\n ...]'''
 
+prompt_generate_E = '''Instruction: Use common knowledge and experience to infer the implicit causes of the given utterance.
+
+--Example--
+Given one utterance from a daily dialogue:
+Oh ? You hoped to get that job , didn't you ?
+
+Return:
+["The job in question is highly competitive or desirable, leading the speaker to inquire about the individual's hopes.",
+]
+
+--To be solved--
+Given one utterance from a daily dialogue: 
+{clause1}
+
+Requirements:
+List 5 reasonable implicit causes.
+Return in the form of a python list.'''
+
 PROMPT_E = prompt_generate_E
 
-prompt_iter = '''Given two utterances: 
+prompt_iter1 = '''Given two utterances: 
 [1] {clause1}
 [2] {clause2}
 
@@ -62,16 +80,40 @@ Requirements:
 List 5 reasonable implicit causes of the utterance [1].
 Return in the form of a python list.'''  
 
-Implicit_Causes_Enhanced1 = '''Given a fragment of daily conversation:
+prompt_iter = '''Instruction: Update original implicit causes of the given utterance based on the Feedback.
+
+Given one utterance from a daily dialogue:
+{clause1}
+
+Original implicit causes:
+1. {e1}
+2. {e2}
+3. {e3}
+4. {e4}
+5. {e5}
+
+Feedback:
+Original implicit causes are listed as {rank1} in descending order of their relevance to the given utterance, {rank2} in ascending order of their relevance to other utterances.
+
+Requirements:
+List 5 reasonable implicit causes so that they are more relevant to the given utterance and less relevant to other utterances
+Return in the form of a python list, such as ["The speaker recently announced their pregnancy.",\n ...]'''
+
+Implicit_Causes_Enhanced = '''Instruction: You are an expect in emotion cause extraction. Follow the given reasoning process step by step to answer the given Question.
+
+There is a fragment of daily conversation:
 {context}
 
-The implicit background cause of utterance [{idx1}]: {implicit_cause1}
+The implicit cause of [{idx1}]: {implicit_cause1}
 
-You are an expert in emotion cause pair extraction. Your task is to infer the question "Is there a causal relationship from the original utterance [{idx1}] to [{idx2}]?"
-Please also consider the implicit causes and provide your reasoning step by step.
-After the reasoning is over, answer with either "Yes." or "No.", if you are unclear/unsure, please answer "No.".'''
+Question: Is there a causal relationship from the original utterance [{idx1}] to [{idx2}]?
 
-Implicit_Causes_Enhanced = '''Given a fragment of daily conversation:
+Given a reasoning process:
+1. Is the implicit cause of {speaker1}'s [{idx1}] the cause of the {speaker2}'s emotions in [{idx2}]?
+2. Consider the context and reasoning in the previous step, think about the Question.
+3. After the reasoning is over, answer the Question with either "Yes." or "No.", if you are unclear/unsure, please answer "No.".'''
+
+Implicit_Causes_Enhanced1 = '''Given a fragment of daily conversation:
 {context}
 
 The implicit background cause of utterance [{idx1}]: {implicit_cause1}
